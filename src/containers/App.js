@@ -78,7 +78,6 @@ class App extends React.Component {
   render() {
     const { fileContent, showModal } = this.state;
     const collections = this.createCollections(fileContent);
-    console.log(collections);
     return (
       <div className="App">
         <Header
