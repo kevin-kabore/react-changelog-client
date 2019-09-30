@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: flex-start;
+  padding: 0 0 20px;
+
+  .date {
+    width: 20%;
+    padding-top: 7px;
+    font-size: 0.9em;
+    color: #8b8e91;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 700px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+
+    .header {
+      margin-top: 0;
+    }
+  }
+}

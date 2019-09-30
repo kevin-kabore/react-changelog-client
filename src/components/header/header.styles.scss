@@ -1,0 +1,71 @@
+$react-blue: #00d8ff;
+
+#header {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  .title-nav {
+    padding: 25px;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    .logo {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      color: $react-blue;
+    }
+  }
+  .navigation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      color: #fff;
+      cursor: pointer;
+      padding: 10px 15px;
+      text-transform: uppercase;
+
+      &.avatar {
+        width: 75px;
+        height: auto;
+        padding: 10px 25px 10px 15px;
+      }
+
+      &:hover {
+        color: $react-blue;
+      }
+    }
+
+    .notification-icon {
+      cursor: pointer;
+      position: absolute;
+      background-color: red;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      right: 10px;
+      top: 10px;
+
+      span {
+        display: block;
+        margin-top: -3px;
+      }
+    }
+  }
+}

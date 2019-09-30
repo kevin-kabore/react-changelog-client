@@ -1,0 +1,14 @@
+.modal {
+  background-color: white;
+  color: black;
+  width: 50vw;
+  max-height: 50vh;
+  padding: 1em;
+  position: absolute;
+  right: 50vw;
+  overflow: scroll;
+  box-sizing: content-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  transform: translateX(50vw);
+}
